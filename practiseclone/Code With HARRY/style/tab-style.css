@@ -1,0 +1,29 @@
+#navbar{
+    flex-direction:column;
+    gap:10px;
+}
+*{
+    font-size: 14px;
+}
+
+#navbar::before{
+   height: 130px;
+}
+
+#home{
+    padding: 0px;
+}
+
+.card{
+    width:100%;
+}
+.service-cards{
+flex-wrap:wrap;
+gap:20px;
+}
+
+.card img{
+    width:100px;
+}
+#clients{height: 290px;}
+#clients::before{height:290px;}

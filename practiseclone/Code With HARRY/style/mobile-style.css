@@ -1,0 +1,47 @@
+*{
+    font-size: 8px;
+}
+
+#navbar{
+    padding:10px 0px;
+}
+.buttons{
+    gap:0;
+}
+.logo{
+ width:auto;   
+}
+.logo img{
+    width:40px;
+}
+#navbar::before{
+    height:110px;
+}
+
+#home{
+    padding:30px;
+height:500px;}
+
+#home::before{
+    height:450px;
+}
+
+#clients{
+height: 220px;
+}
+#clients::before{
+    height: 220px;
+}
+#contact{
+    height:520px;
+}
+#contact::before{
+    height:520px;
+}
+
+.contact-form{
+    width:250px;
+}
+.contact-form textarea{
+    height:150px;
+}
